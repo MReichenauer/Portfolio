@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta chararticlet="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./img/max-reichenauer.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Max Reichenauer</title>
@@ -10,23 +10,29 @@
     <div id="app">
       <nav id="mainNav"></nav>
       <header id="myHeader">
-        <div id="headerContent">
-          <div id="type">
-          <p>type student = {</p>
-            <p>firstName: string;,</p>
-            <p>lastName: string;,</p>
-            <p>birthDate: number;,</p>
+        <section id="headerContent">
+          <article id="type">
+            <p>type Student = {</p>
+            <p>firstName: string</p>
+            <p>lastName: string</p>
+            <p>birthDate: number</p>
+            <p>}</p>
+          </article>
+          <article id="student">
+            <p>Const student: Student = {</p>
+            <p>firstName: "Max",</p>
+            <p>lastName: "Reichenauer",</p>
+            <p>birthDate: 19980805,</p>
             <p>};</p>
-          </div>
-          <div id="student">
-          <p>Const student = {</p>
-          <p>firstName: "Max",</p>
-          <p>lastName: "Reichenauer",</p>
-          <p>birthDate: 19980805,</p>
-          <p>};</p>
-        </div>
-        </div>
+          </article>
+        </section>
       </header>
+      <section id="whoAmI">
+        <h1 id="max">Who am i?</h1>
+        <article id="me">
+          
+        </article>
+      </section>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

@@ -15,16 +15,41 @@ body {
 
 #myHeader {
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(17, 28, 231);
+    width: 100%;
     height: 18em;
 }
 
 #headerContent {
     display: flex;
     justify-content: space-evenly;
-    width: 100vh;
+    width: 100%;
     height: 12em;
     background-color: rgba(2, 3, 21, 0.6);
+}
+
+#whoAmI {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 15em;
+    background-color: gray;
+    
+}
+
+#max {
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+#me {
+    background-color: green;
+    width: 45%;
+    height: 10em;
+    margin-left: auto;
+    margin-right: 0;
+    
 }
