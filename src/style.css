@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    margin: 0;
+    border: 0;
+}
+
+#app {
+    height: 100vh;
+    width: 100%;
+}
+
+#myHeader {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: rgb(17, 28, 231);
+    height: 18em;
+}
+
+#headerContent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vh;
+    height: 12em;
+    background-color: rgba(2, 3, 21, 0.6);
+}
