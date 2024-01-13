@@ -8,8 +8,16 @@ body {
     border: 0;
 }
 
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
 #app {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: chartreuse;
 }
@@ -164,3 +172,49 @@ body {
     width: 90%;
     height: 10em;
 }
+
+#contactInfo {
+    display: flex;  
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    height: 18em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+
+#cid1 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+#cid2 {
+    text-align: start;
+    margin-left: 1em;
+}
+
+#cid3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cid3 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#cid3 i {
+  margin-bottom: 5px;
+}
+
+.slowFlip {
+    -webkit-animation: fa-flip 6s infinite linear;
+    animation: fa-flip 6s infinite linear;
+  }
+
