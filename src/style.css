@@ -11,6 +11,7 @@ body {
 #app {
     height: 100vh;
     width: 100%;
+    background-color: chartreuse;
 }
 
 #myHeader {
@@ -20,6 +21,7 @@ body {
     background-color: rgb(17, 28, 231);
     width: 100%;
     height: 18em;
+    
 }
 
 #headerContent {
@@ -28,34 +30,40 @@ body {
     width: 100%;
     height: 12em;
     background-color: rgba(2, 3, 21, 0.6);
+    
 }
 
 #whoAmI {
-    display: flex;
-    
+    display: flex;  
     text-align: center;
-    width: 100%;
+    width: 90%;
     height: 15em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
     background-color: gray;
+    
     
 }
 
 #max {
     display: flex;
     margin-top: 5px;
-   justify-content: center
-    
+    justify-content: center;
 }
 
 #me {
     /* background-color: green; */
     width: 45%;
     height: 80%;
-    margin-top: 0;
+    margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: 0;
     border-bottom-left-radius: 12px;
+    border-radius: 45%;
+    
+    
     
 }
 
@@ -64,4 +72,95 @@ body {
     margin-top: 1em;
     margin-left: 0.5em;
     margin-right: 0.5em;
+}
+
+#skills {
+    display: flex; 
+    flex-wrap: wrap; 
+    text-align: center;
+    margin-top: 2em;
+    width: 100%;
+    height: 68em;
+    background-color: red;
+}
+
+#html {
+    display: flex;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 192, 221);
+    width: 90%;
+    height: 10em;
+}
+
+#htmlImg {
+    width: 45%;
+    height: 80%;
+    margin-top: 1em;
+    margin-bottom: auto;
+    margin-left: 0;
+    border-bottom-left-radius: 12px;
+    border-radius: 45%;                       
+}
+
+#htmlText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#htmlText p {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#css {
+    display: flex;
+    margin-top: 0.5em;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: blueviolet;
+    width: 90%;
+    height: 10em;
+}
+
+#js {
+    display: flex;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(43, 226, 195);
+    width: 90%;
+    height: 10em;
+}
+
+#ts {
+    display: flex;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(72, 8, 102);
+    width: 90%;
+    height: 10em;
+}
+
+#npm {
+    display: flex;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 82, 175);
+    width: 90%;
+    height: 10em;
+}
+
+#overAll {
+    display: flex;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(82, 175, 39);
+    width: 90%;
+    height: 10em;
 }
