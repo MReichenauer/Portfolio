@@ -220,6 +220,9 @@ h2 {
 
   #contactMe {
     background-color: rgb(145, 84, 11);
+    margin-top: 2em;
+    padding-top: 1px;
+    padding-bottom: 1.5em;
   }
 
   #contactMeh2 {
@@ -282,4 +285,17 @@ h2 {
   
   .close:hover {
     color: #000;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    height: 100px;
+    width: 100%;
+    background-color: #45a049;
+  }
+
+  footerContent {
+    margin-top: 10px;
   }
