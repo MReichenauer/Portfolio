@@ -53,3 +53,15 @@ const sendButton = document.getElementById('sendButton');
 if (sendButton) {
     sendButton.addEventListener('click', sendEmail);
 }
+
+const navMenu = document.querySelector("#navMenu");
+const navOptions = document.querySelector("#navOptions")
+
+navMenu?.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+})
+
+navMenu?.addEventListener("click", () => {
+  navOptions!.classList.remove("hide");
+})
+
