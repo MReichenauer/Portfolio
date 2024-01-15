@@ -55,13 +55,14 @@ if (sendButton) {
 }
 
 const navMenu = document.querySelector("#navMenu");
-const navOptions = document.querySelector("#navOptions")
+const navOptions = document.querySelector("#navOption")
 
 navMenu?.addEventListener("click", () => {
   navMenu.classList.toggle("active");
+  navMenu.classList.toggle("show");
+  navOptions?.classList.toggle("hide");
+  navOptions?.classList.toggle("navOptions");
 })
 
-navMenu?.addEventListener("click", () => {
-  navOptions!.classList.remove("hide");
-})
+
 
