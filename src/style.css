@@ -31,6 +31,11 @@ ul {
   list-style-type: none;
 }
 
+#nodeJsUl {
+  padding-left: 0;
+  list-style-type: none;
+}
+
 .navOptions {
   height: 200px;
   display: flex;
@@ -102,7 +107,7 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #app {
@@ -127,7 +132,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  height: 12em;
+  height: 13em;
   background-color: rgba(75, 72, 72, 0.4);
 }
 
@@ -173,14 +178,14 @@ p {
   text-align: center;
   margin-top: 2em;
   width: 100%;
-  height: 95em;
+  height: 110em;
   /* background-color: red; */
 }
 
 #skillsH2 {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   padding-bottom: 0;
   height: 0;
   background-color: #4CAF50;
@@ -194,7 +199,7 @@ p {
   background-color:rgba(75, 72, 72, 0.4);
   border-radius: 12px;
   width: 90%;
-  height: 150px;
+  height: 160px;
 }
 
 .skillsText {
@@ -223,7 +228,7 @@ p {
   background-color:rgba(75, 72, 72, 0.4);
   border-radius: 12px;
   width: 90%;
-  height: 14em;
+  height: 280px;
 }
 
 #js {
@@ -234,7 +239,7 @@ p {
   background-color:rgba(75, 72, 72, 0.4);
   border-radius: 12px;
   width: 90%;
-  height: 150px;
+  height: 165px;
 }
 
 #ts {
@@ -245,7 +250,25 @@ p {
   background-color:rgba(75, 72, 72, 0.4);
   border-radius: 12px;
   width: 90%;
-  height: 150px;
+  height: 180px;
+}
+
+#nodeJsArt {
+  display: flex;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgba(75, 72, 72, 0.4);
+  border-radius: 12px;
+  width: 90%;
+  height: 280px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+#nodeJsArt p {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 #npm {
@@ -256,10 +279,22 @@ p {
   background-color:rgba(75, 72, 72, 0.4);
   border-radius: 12px;
   width: 90%;
-  height: 12em;
+  height: 240px;
 }
 
-#overAll {
+#postman {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgba(75, 72, 72, 0.4);
+  border-radius: 12px;
+  width: 90%;
+  height: 150px;
+}
+
+#figma {
   display: flex;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
