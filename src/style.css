@@ -99,15 +99,32 @@ h1 {
 }
 
 h2 {
+  margin-top: -20px;
   font-size: 28px;
+  
 }
 
 h3 {
   font-size: 24px;
 }
 
+h4 {
+  font-size: 22px;
+}
+
 p {
   font-size: 18px;
+}
+
+ul {
+  font-size: 18px;
+}
+
+
+#prov {
+  background-color:rgba(75, 72, 72, 0.8);
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 
 #app {
@@ -213,6 +230,8 @@ p {
 
 .skillsText h3 {
   margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skillsText p {
@@ -285,7 +304,6 @@ p {
 #postman {
   display: flex;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   background-color:rgba(75, 72, 72, 0.4);
@@ -305,6 +323,47 @@ p {
   width: 90%;
   height: 150px;
 }
+
+#internShip {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgba(75, 72, 72, 0.4);
+  border-radius: 12px;
+  width: 90%;
+  height: 300px;
+}
+
+#coursesDone {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgba(75, 72, 72, 0.4);
+  border-radius: 12px;
+  width: 90%;
+  height: 500px;
+}
+
+#coursesDone h3 {
+  margin-top: 0;
+}
+
+#coursesDone h4 {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#coursesDone ul {
+  padding-left: 0;
+} 
+
+#coursesDone li {
+  margin-bottom: 10px;
+} 
 
 #contact {
   margin-top: 5em;
