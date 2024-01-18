@@ -64,5 +64,18 @@ navMenu?.addEventListener("click", () => {
   navOptions?.classList.toggle("navOptions");
 })
 
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+const startBtn = document.querySelector("#startBtn")
+
+startBtn?.addEventListener("click", () => {
+  scrollToTop();
+})
+
 
 

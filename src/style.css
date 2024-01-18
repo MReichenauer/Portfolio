@@ -20,7 +20,9 @@ body {
 }
 
 .selectBtn {
-  background-color: #45a049;
+  background-color: #222;
+  border-radius: 12px;
+  height: 30px;
 }
 
 #wholeNav {
@@ -37,7 +39,9 @@ ul {
 }
 
 .navOptions {
-  height: 200px;
+  width: 150px;
+  height: 250px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -89,7 +93,7 @@ ul {
 
 
 #navMenu.active > span:nth-child(1) {
-  transform: translateY(9px) rotate(125deg);
+  transform: translateY(9px) rotate(130deg);
 }
 
 #navMenu.active > span:nth-child(2) {
@@ -180,8 +184,9 @@ ul {
 #whoAmI {
   display: flex;
   text-align: center;
+  z-index: 1;
   width: 90%;
-  height: 220px;
+  height: 260px;
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -190,21 +195,28 @@ ul {
   border-radius: 12px;
 }
 
+
+
+#whoAmI p {
+  width: 210px;
+  text-align: center;
+}
+
+
 #max {
   display: flex;
   margin-top: 5px;
+  margin-bottom: 0;
   justify-content: center;
 }
 
 #me {
-  width: 45%;
-  height: 80%;
-  margin-top: auto;
-  margin-bottom: auto;
+  width: 130px;
+  height: 220px;
+  margin-bottom: 0;
   margin-left: auto;
-  margin-right: 0;
-  border-bottom-left-radius: 12px;
-  border-radius: 45%;
+  margin-right: 1px;
+  border-radius: 6px;
 }
 
 #aboutMe {
