@@ -12,6 +12,12 @@ body {
 .show {
   background-color:rgba(75, 72, 72, 0.8);
   border-bottom-right-radius: 12px;
+  background-color: rgba(75, 72, 72, 0.8);
+  border-bottom-right-radius: 12px;
+  border: 2px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
+  border-left: none;
+  border-top: none;
 }
 
 
@@ -109,18 +115,17 @@ h1 {
   font-size: 32px;
 }
 
-#aboutMe h1 {
-  margin-left: -8px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 12px;
+#whoAmI h1 {
+  width: 100%;
   margin-top: 0;
+  text-align: center;
 
  
 }
 
 h2 {
   margin-top: -20px;
-  font-size: 28px;
+  font-size: 26px;
   
 }
 
@@ -142,6 +147,18 @@ ul {
   font-size: 18px;
 }
 
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  font-size: 18px;
+}
+
+textarea {
+  font-size: 18px;
+}
 
 .prov {
   background-color:rgba(75, 72, 72, 0.3);
@@ -183,66 +200,85 @@ ul {
 
 #whoAmI {
   display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
   text-align: center;
   z-index: 1;
   width: 90%;
   height: 260px;
-  margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
-
+  border: 0.5px rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
+  overflow: hidden;
 }
-
 
 
 #whoAmI p {
   width: 210px;
   text-align: center;
+  margin-left: 0;
 }
 
 
 #max {
   display: flex;
+  width: 100%;
   margin-top: 5px;
   margin-bottom: 0;
   justify-content: center;
 }
 
-#me {
-  width: 130px;
-  height: 220px;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: 1px;
-  border-radius: 6px;
-}
-
 #aboutMe {
-  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
   margin-top: 0;
   margin-left: 0.5em;
   margin-right: 0.5em;
+}
+
+#me {
+  width: 110px;
+  height: 170px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 #skills {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 2em;
   width: 100%;
   height: 110em;
-  /* background-color: red; */
 }
 
 #skillsH2 {
+  width: 350px;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
   padding-bottom: 0;
-  height: 0;
-  background-color: #4CAF50;
+  padding-top: 4px;
+  border-radius: 12px;
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
+  background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+
 }
 
 #html {
@@ -250,7 +286,10 @@ ul {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0.5em;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 157px;
@@ -278,10 +317,13 @@ ul {
 
 #css {
   display: flex;
-  margin-top: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 260px;
@@ -289,10 +331,12 @@ ul {
 
 #js {
   display: flex;
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 158px;
@@ -300,10 +344,12 @@ ul {
 
 #ts {
   display: flex;
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 178px;
@@ -311,10 +357,12 @@ ul {
 
 #nodeJsArt {
   display: flex;
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 270px;
@@ -329,9 +377,11 @@ ul {
 
 #npm {
   display: flex;
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
   border-radius: 12px;
   width: 90%;
@@ -340,10 +390,12 @@ ul {
 
 #postman {
   display: flex;
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 137px;
@@ -351,12 +403,13 @@ ul {
 
 #figma {
   display: flex;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
-
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 138px;
@@ -364,11 +417,13 @@ ul {
 
 #internShip {
   display: flex;
-  margin-top: 0.5em;
+  margin-top: 2em;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 280px;
@@ -376,11 +431,12 @@ ul {
 
 #coursesDone {
   display: flex;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   width: 90%;
   height: 498px;
@@ -404,7 +460,7 @@ ul {
 } 
 
 #contact {
-  margin-top: 5em;
+  margin-top: 32px;
 }
 
 #contactInfo {
@@ -417,6 +473,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
 }
 
@@ -463,6 +521,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
+  border: 0.5px  rgba(250, 247, 247, 0.4);
+  border-style: ridge;
   border-radius: 12px;
   margin-top: 2em;
   padding-top: 1px;
@@ -514,12 +574,51 @@ ul {
 }
 
 #contactForm button {
-  background-color: #4CAF50;
+  background-color: #16a31bad;
   color: white;
   padding: 10px;
   border: none;
   cursor: pointer;
+  font-size: 20px;
 }
+.bn600-hover {
+  width: 160px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn600-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn600-hover:focus {
+  outline: none;
+}
+
+.bn600-hover.bn22 {
+  background-image: linear-gradient(
+    to right,
+    #0ba36186,
+    #3cba929f,
+    #30dd89b0,
+    #2bb6739d
+  );
+  box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.575);
+}
+
 
 #contactForm button:hover {
   background-color: #45a049;
@@ -569,4 +668,44 @@ footer {
 
 footerContent {
   margin-top: 10px;
+}
+
+.bn632-hover {
+  width: 140px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 0;
+  height: 35px;
+  text-align:center;
+  line-height: 35px;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn25 {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
