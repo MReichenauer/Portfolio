@@ -166,6 +166,8 @@ textarea {
   border-top-left-radius: 12px;
   width: 100%;
   margin-top: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 #app {
@@ -205,7 +207,7 @@ textarea {
   justify-content: center; 
   text-align: center;
   z-index: 1;
-  width: 90%;
+  width: 95vw;
   height: 260px;
   margin-left: auto;
   margin-right: auto;
@@ -261,17 +263,15 @@ textarea {
   flex-wrap: wrap;
   text-align: center;
   width: 100%;
-  height: 110em;
+  height: 115em;
 }
 
 #skillsH2 {
-  width: 350px;
+  width: 95vw;
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
-  padding-left: 8px;
-  padding-right: 8px;
   padding-bottom: 0;
   padding-top: 4px;
   border-radius: 12px;
@@ -291,8 +291,8 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
-  height: 157px;
+  width: 95vw;
+  height: 165px;
 }
 
 .skillsText {
@@ -325,8 +325,8 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
-  height: 260px;
+  width: 95vw;
+  height: 290px;
 }
 
 #js {
@@ -338,8 +338,8 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
-  height: 158px;
+  width: 95vw;
+  height: 165px;
 }
 
 #ts {
@@ -351,8 +351,8 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
-  height: 178px;
+  width: 95vw;
+  height: 190px;
 }
 
 #nodeJsArt {
@@ -364,8 +364,8 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
-  height: 270px;
+  width: 95vw;
+  height: 280px;
   padding-top: 5px;
   padding-bottom: 30px;
 }
@@ -384,8 +384,8 @@ textarea {
   border-style: ridge;
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
   border-radius: 12px;
-  width: 90%;
-  height: 220px;
+  width: 95vw;
+  height: 250px;
 }
 
 #postman {
@@ -397,8 +397,8 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
-  height: 137px;
+  width: 95vw;
+  height: 145px;
 }
 
 #figma {
@@ -411,8 +411,8 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
-  height: 138px;
+  width: 95vw;
+  height: 165px;
 }
 
 #internShip {
@@ -425,7 +425,7 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
+  width: 95vw;
   height: 280px;
 }
 
@@ -438,8 +438,10 @@ textarea {
   border: 0.5px  rgba(250, 247, 247, 0.4);
   border-style: ridge;
   border-radius: 12px;
-  width: 90%;
-  height: 498px;
+  width: 95vw;
+  height: 510px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #coursesDone h3 {
@@ -467,7 +469,7 @@ textarea {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 90%;
+  width: 95vw;
   height: 260px;
   margin-top: 2em;
   margin-left: auto;
@@ -526,7 +528,7 @@ textarea {
   border-radius: 12px;
   margin-top: 2em;
   padding-top: 1px;
-  width: 90%;
+  width: 95vw;
   padding-bottom: 1.5em;
   margin-bottom: 12px;
   height: 470px;
@@ -561,12 +563,14 @@ textarea {
   width: 100%;
   height: 35px;
   margin: 0.5em 0;
+  background-color: rgba(255,255,255, 0.95)
 }
 
 #contactForm textarea {
   width: 100%;
   height: 150px;
   margin: 0.5em 0;
+  background-color: rgba(255,255,255, 0.95)
 }
 
 #contactForm button {
