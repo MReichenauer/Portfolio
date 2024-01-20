@@ -134,11 +134,6 @@ h3 {
   font-size: 24px;
 }
 
-h4 {
-  font-size: 22px;
-  width: 100%;
-  margin-top: 0;
-}
 
 p {
   font-size: 18px;
@@ -209,7 +204,7 @@ textarea {
   text-align: center;
   z-index: 1;
   width: 95vw;
-  height: 260px;
+  height: 265px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -241,9 +236,8 @@ textarea {
   flex-direction: column;
   align-items: center;
   width: 90%;
-  margin-top: 0;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin: 0;  
+  padding: 0; 
 }
 
 #me {
@@ -293,7 +287,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
-  height: 165px;
+  height: 170px;
 }
 
 .skillsText {
@@ -327,7 +321,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
-  height: 290px;
+  height: 295px;
 }
 
 #js {
@@ -340,7 +334,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
-  height: 165px;
+  height: 170px;
 }
 
 #ts {
@@ -386,7 +380,7 @@ textarea {
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
   border-radius: 12px;
   width: 95vw;
-  height: 250px;
+  height: 255px;
 }
 
 #postman {
@@ -399,7 +393,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
-  height: 145px;
+  height: 150px;
 }
 
 #figma {
@@ -413,7 +407,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
-  height: 165px;
+  height: 170px;
 }
 
 #internShip {
@@ -427,7 +421,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
-  height: 280px;
+  height: 285px;
 }
 
 #coursesDone {
@@ -440,18 +434,14 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
-  height: 510px;
+  height: 555px;
+}
+
+
+
+#coursesDone h2 {
   padding-left: 5px;
   padding-right: 5px;
-}
-
-#coursesDone h3 {
-  margin-top: 0;
-}
-
-#coursesDone h4 {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
 }
 
 #coursesDone ul {
