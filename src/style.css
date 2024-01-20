@@ -33,6 +33,7 @@ body {
 
 #wholeNav {
   position:fixed;
+  z-index: 1;
 }
 
 ul {
