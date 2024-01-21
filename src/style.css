@@ -204,6 +204,7 @@ textarea {
   text-align: center;
   z-index: 1;
   width: 95vw;
+  max-width: 334px;
   height: 265px;
   margin-left: auto;
   margin-right: auto;
@@ -263,6 +264,7 @@ textarea {
 
 #skillsH2 {
   width: 95vw;
+  max-width: 334px;
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
@@ -287,6 +289,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 170px;
 }
 
@@ -321,6 +324,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 295px;
 }
 
@@ -334,6 +338,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 170px;
 }
 
@@ -347,6 +352,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 190px;
 }
 
@@ -360,6 +366,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 280px;
   padding-top: 5px;
   padding-bottom: 30px;
@@ -380,6 +387,7 @@ textarea {
   background-image: linear-gradient(to bottom, rgba(75, 72, 72, 0.8), rgba(65, 63, 63, 0.8), rgba(56, 54, 54, 0.6), rgba(47, 45, 45, 0.5), rgba(38, 36, 36, 0.5));
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 255px;
 }
 
@@ -393,6 +401,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 150px;
 }
 
@@ -407,6 +416,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 170px;
 }
 
@@ -421,6 +431,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 285px;
 }
 
@@ -434,6 +445,7 @@ textarea {
   border-style: ridge;
   border-radius: 12px;
   width: 95vw;
+  max-width: 334px;
   height: 555px;
 }
 
@@ -461,6 +473,7 @@ textarea {
   flex-direction: column;
   text-align: center;
   width: 95vw;
+  max-width: 334px;
   height: 260px;
   margin-top: 2em;
   margin-left: auto;
@@ -520,6 +533,7 @@ textarea {
   margin-top: 2em;
   padding-top: 1px;
   width: 95vw;
+  max-width: 390px;
   padding-bottom: 1.5em;
   margin-bottom: 12px;
   height: 470px;
