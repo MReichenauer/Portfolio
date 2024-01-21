@@ -718,3 +718,43 @@ footerContent {
   );
   box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
+
+.contentBox {
+  display: none;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 668px) {
+  .contentBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto; 
+    gap: 10px; 
+    margin-left: auto;  
+    margin-right: auto;
+    align-items: center; 
+    max-width: 700px;   
+  }
+
+  #whoAmI {
+    width: 100%;
+    order: 1;
+    margin: 0;
+    grid-row: span 1;
+  }
+
+  #internShip {
+    width: 100%;
+    order: 3; 
+    margin: 0;
+    grid-row: span 1;
+  }
+
+  #coursesDone {
+    width: 100%;
+    order: 2; 
+    height: 100%;
+    margin: 0;
+    grid-row: span 2; 
+  }
+}
