@@ -719,21 +719,24 @@ footerContent {
   box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
-.contentBox {
-  display: none;
-  flex-direction: row;
-}
+
 
 @media screen and (min-width: 668px) {
+ 
   .contentBox {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto; 
     gap: 10px; 
+    margin-top: 2em;
     margin-left: auto;  
     margin-right: auto;
     align-items: center; 
     max-width: 700px;   
+  }
+
+  #skills {
+    height:fit-content;
   }
 
   #whoAmI {
@@ -757,4 +760,98 @@ footerContent {
     margin: 0;
     grid-row: span 2; 
   }
+
+  #skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto; 
+    gap: 10px;
+    row-gap: 0px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  #html {
+    width: 100%;
+    margin: 0;
+    grid-row: span 1;
+    grid-column: span 1;
+    order: 1;
+  }
+
+  #css {
+    width: 100%;
+    margin: 0;
+    grid-row: span 1;
+    grid-column: span 1;
+    order: 2;
+  }
+
+  #js {
+    width: 100%;
+    margin: 0;
+    grid-row: span 1;
+    grid-column: span 1;
+    order: 1;
+  }
+
+  #ts {
+    width: 100%;
+    
+    margin: 0;
+    grid-row: span 1;
+    grid-column: span 1;
+    order: 2;
+  }
+
+  #nodeJsArt {
+    width: 100%;
+    margin: 0;
+    grid-row: span 1;
+    grid-column: span 1;
+    order: 3;
+  }
+
+  #npm {
+    width: 100%;
+    margin: 0;
+    grid-row: span 1;
+    grid-column: span 1;
+    order: 2;
+  }
+
+  #postman {
+    width: 100%;
+    margin: 0;
+    grid-row: span 1;
+    grid-column: span 1;
+    order: 7;
+  }
+
+  #figma {
+    width: 100%;
+    margin: 0;
+    grid-row: span 1;
+    grid-column: span 1;
+    order: 7;
+  }
+
+
+  #skillsH2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    text-align: center;
+    grid-column: span 2;
+  }
+  
+  .skillsText {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .prov {
+    margin-bottom: 0.5em;
+  }
+
 }
