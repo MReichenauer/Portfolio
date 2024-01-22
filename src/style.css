@@ -733,11 +733,10 @@ footerContent {
     margin-right: auto;
     align-items: center; 
     max-width: 700px;   
+    margin-bottom: 2em;
   }
 
-  #skills {
-    height:fit-content;
-  }
+  
 
   #whoAmI {
     width: 100%;
@@ -763,16 +762,18 @@ footerContent {
 
   #skills {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto; 
+    grid-template-columns: 2;
+    grid-template-rows: auto; 
     gap: 10px;
-    row-gap: 0px;
+    
     max-width: 700px;
+    height: max-content;
     margin: 0 auto;
   }
   
   #html {
     width: 100%;
+    height: 100%;
     margin: 0;
     grid-row: span 1;
     grid-column: span 1;
@@ -781,14 +782,16 @@ footerContent {
 
   #css {
     width: 100%;
+    height: 100%;
     margin: 0;
     grid-row: span 1;
     grid-column: span 1;
-    order: 2;
+    order: 1;
   }
 
   #js {
     width: 100%;
+    height: 100%;
     margin: 0;
     grid-row: span 1;
     grid-column: span 1;
@@ -797,7 +800,7 @@ footerContent {
 
   #ts {
     width: 100%;
-    
+    height: 100%;
     margin: 0;
     grid-row: span 1;
     grid-column: span 1;
@@ -806,14 +809,17 @@ footerContent {
 
   #nodeJsArt {
     width: 100%;
+    height: 100%;
     margin: 0;
     grid-row: span 1;
     grid-column: span 1;
-    order: 3;
+    order: 2;
+   
   }
 
   #npm {
     width: 100%;
+    height: 100%;
     margin: 0;
     grid-row: span 1;
     grid-column: span 1;
@@ -822,6 +828,7 @@ footerContent {
 
   #postman {
     width: 100%;
+    height: 100%;
     margin: 0;
     grid-row: span 1;
     grid-column: span 1;
@@ -830,6 +837,7 @@ footerContent {
 
   #figma {
     width: 100%;
+    height: 100%;
     margin: 0;
     grid-row: span 1;
     grid-column: span 1;
