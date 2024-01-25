@@ -77,5 +77,11 @@ startBtn?.addEventListener("click", () => {
   scrollToTop();
 })
 
+const startBigBtn = document.querySelector("#startBigBtn")
+
+startBigBtn?.addEventListener("click", () => {
+  scrollToTop();
+})
+
 
 
