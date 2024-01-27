@@ -308,7 +308,7 @@ textarea {
   flex-wrap: wrap;
   text-align: center;
   width: 100%;
-  height: 115em;
+  height: 125em;
 }
 
 #skillsH2 {
@@ -341,7 +341,7 @@ textarea {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 170px;
+  height: 250px;
 }
 
 .skillsText {
@@ -392,7 +392,7 @@ textarea {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 172px;
+  height: 168px;
 }
 
 #ts {
@@ -407,7 +407,7 @@ textarea {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 195px;
+  height: 180px;
 }
 
 #nodeJsArt {
@@ -478,7 +478,9 @@ textarea {
   height: 172px;
 }
 
+
 #internShip {
+  scroll-margin-top: 2vh;
   position: relative;
   z-index: 1;
   display: flex;
@@ -527,6 +529,7 @@ textarea {
 } 
 
 #contact {
+  scroll-margin-top: 2vh;
   margin-top: 32px;
 }
 
@@ -891,6 +894,7 @@ footerContent {
   }
 
   #internShip {
+    scroll-margin-top: 12vh;
     width: 100%;
     order: 3; 
     margin: 0;
@@ -906,6 +910,7 @@ footerContent {
   }
 
   #skills {
+    scroll-margin-top: 12vh;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto; 
@@ -1020,7 +1025,11 @@ footerContent {
     width: 100%;
     margin: 0;
   }
-  
+
+  #contact {
+    scroll-margin-top: 15vh;
+  }
+
   .prov {
     margin-bottom: 0.5em;
   }
