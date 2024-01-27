@@ -12,7 +12,7 @@ body {
 .show {
   background-color: #081317;
   border-bottom-right-radius: 12px;
-  border: 2px  rgba(250, 247, 247, 0.4);
+  border: 2px  rgba(250, 247, 247, 0.1);
   border-style: ridge;
   border-left: none;
   border-top: none;
@@ -221,7 +221,7 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-bottom: 0.5px rgba(250, 247, 247, 0.4);
+  border-bottom: 0.5px rgba(250, 247, 247, 0.1);
   border-style: ridge;
   border-left-style: none;
   border-right-style: none;
@@ -745,8 +745,7 @@ footer {
   height: 100px;
   width: 100%;
   background-color: #081317;
-  border-top: 0.5px rgba(250, 247, 247, 0.4);
-  border-bottom: 0.5px rgba(250, 247, 247, 0.4);
+  border-top: 0.5px rgba(250, 247, 247, 0.1);
   border-style: ridge;
   border-left-style: none;
   border-right-style: none;
@@ -854,7 +853,7 @@ footerContent {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     background-color: #081317;
-    border: 2px rgba(250, 247, 247, 0.4);    
+    border: 0.5px rgba(250, 247, 247, 0.1);   
     border-style: ridge;
     border-top-style: none;
   }
