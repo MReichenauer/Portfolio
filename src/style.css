@@ -6,12 +6,14 @@ html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  
 }
 
 body {
   color: aliceblue;
   margin: 0;
   border: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 ul {
@@ -19,12 +21,13 @@ ul {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 30px;
+  
 }
 
 h2 {
   margin-top: -20px;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 h3 {
@@ -32,7 +35,7 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 ul {
@@ -164,6 +167,10 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
 }
 
+#headerContent p {
+  font-size: 15px;
+}
+
 #bigNav {
   display: none;
 }
@@ -245,14 +252,14 @@ footer {
   z-index: 1;
   display: flex;
   margin-top: 2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 285px;
+  height: 255px;
 }
 
 .skillsText {
@@ -279,7 +286,7 @@ footer {
   position: relative;
   z-index: 1;
   display: flex;
-  margin-top: 1em;
+  margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
@@ -314,12 +321,12 @@ footer {
   z-index: 1;
   width: 95vw;
   max-width: 334px;
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
+  margin-bottom: 1em;
   padding-bottom: 0;
-  padding-top: 4px;
+  padding-top: 18px;
   border-radius: 12px;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
 }
@@ -335,7 +342,7 @@ footer {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 250px;
+  height: 230px;
 }
 
 #css {
@@ -349,25 +356,27 @@ footer {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 298px;
+  height: 290px;
 }
 
 #js {
   z-index: 1;
   display: flex;
-  margin-bottom: 0.5em;
+  margin-top: 0;
+  margin-bottom: 1em;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 168px;
+  height: 160px;
 }
 
 #ts {
   z-index: 1;
   display: flex;
+  margin-top: 0;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
@@ -388,7 +397,7 @@ footer {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 284px;
+  height: 268px;
   padding-top: 5px;
   padding-bottom: 30px;
 }
@@ -408,7 +417,7 @@ footer {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 255px;
+  height: 235px;
 }
 
 #postman {
@@ -421,7 +430,7 @@ footer {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 150px;
+  height: 140px;
 }
 
 #figma {
@@ -435,7 +444,7 @@ footer {
   border-radius: 12px;
   width: 95vw;
   max-width: 334px;
-  height: 172px;
+  height: 160px;
 }
 
 #contact {
@@ -559,6 +568,7 @@ footer {
 }
 
 .popUp {
+  z-index: 3;
   display: none;
   position: fixed;
   top: 0;
@@ -710,6 +720,10 @@ footer {
 
 @media screen and (min-width: 668px) {
 
+  body p {
+    font-size: 18px;
+  }
+
   #myHeader {
     height: 25em;
   }
@@ -718,6 +732,10 @@ footer {
     z-index: 1;
     margin-top: 70px;
     border-radius: 12px;
+  }
+
+  #headerContent p {
+    font-size: 18px;
   }
 
   #navMenu {
@@ -768,10 +786,11 @@ footer {
     border-top-style: none;
   }
 
-  #startBigBtn, #internShipBtn, #skillsBtn, #contactsBtn, #contactMeBtn {
+  #startBigBtn, #internShipBigBtn, #skillsBigBtn, #contactsBigBtn, #contactMeBigBtn {
     margin-top: auto;
     margin-bottom: auto;
     width: 120px;
+    font-size: 16px;
   }
  
   .contentBox {
@@ -789,14 +808,16 @@ footer {
 
   #whoAmI {
     width: 100%;
+    height: 100%;
     order: 1;
     margin: 0;
     grid-row: span 1;
   }
 
   #internShip {
-    scroll-margin-top: 12vh;
+    height: 100%;
     width: 100%;
+    scroll-margin-top: 12vh;
     order: 3; 
     margin: 0;
     grid-row: span 1;
@@ -834,6 +855,11 @@ footer {
   
   .skillsText p {
     justify-content: center;
+  }
+
+  #skillsH2 {
+    padding-top: 12px;
+    font-size: 24px;
   }
   
   #html {
@@ -931,6 +957,8 @@ footer {
   }
 
   #contactInfo {
+    margin-top: 4em;
+    margin-bottom: 3em;
     max-width: 400px;
   }
 

@@ -34,6 +34,7 @@ function sendEmail() {
         const popUp = document.getElementById('myPopUp');
         if (popUp) {
           popUp.style.display = 'block';
+          console.log("work?");
         }
       
         // Hide the popup after 5 sec
