@@ -54,6 +54,7 @@ if (sendButton) {
     sendButton.addEventListener('click', sendEmail);
 }
 
+// Toggle classes on nav
 const navMenu = document.querySelector("#navMenu");
 const navOptions = document.querySelector("#navOption")
 
@@ -64,6 +65,7 @@ navMenu?.addEventListener("click", () => {
   navOptions?.classList.toggle("navOptions");
 })
 
+// Scroll to top function for start buttons
 function scrollToTop() {
   window.scrollTo({
     top: 0,
