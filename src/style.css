@@ -21,38 +21,38 @@ ul {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.875rem;
   
 }
 
 h2 {
-  margin-top: -20px;
-  font-size: 22px;
+  margin-top: -1.25rem;
+  font-size: 1.375rem;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 ul {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 label {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 input {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 textarea {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 footer {
@@ -60,8 +60,8 @@ footer {
   z-index: 1;
   display: flex;
   justify-content: center;
-  padding-top: 5px;
-  height: 100px;
+  padding-top: 0.313rem;
+  height: 6.25rem;
   width: 100%;
   background-color: #081317;
   border-top: 0.5px rgba(250, 247, 247, 0.1);
@@ -83,28 +83,28 @@ footer {
 }
 
 #navMenu {
-  padding: 10px;
-  margin-left: 0px;
+  padding: 0.625rem;
+  margin-left: 0;  /* var px */
   margin-right: 0;
 }
 
 .navOptions {
-  width: 150px;
-  height: 250px;
+  width: 9.375rem;
+  height: 15.625rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-bottom: 0;
   padding-left: 0;
-  padding-bottom: 5px;
+  padding-bottom: 0.313rem;
 }
 
 #navMenu > span {
   display: block;
-  width: 34px;
-  height: 2px;
+  width: 2.125rem;
+  height: 0.125rem;
   border-radius: 9999px;
   background-color: white;
 }
@@ -162,13 +162,13 @@ footer {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  max-width: 700px;
+  max-width: 43.75rem;
   height: 13rem;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
 }
 
 #headerContent p {
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 
 #bigNav {
@@ -184,8 +184,8 @@ footer {
   justify-content: center; 
   text-align: center;
   width: 95vw;
-  max-width: 334px;
-  height: 265px;
+  max-width: 20.875rem;
+  height: 16.563rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
@@ -201,7 +201,7 @@ footer {
 }
 
 #whoAmI p {
-  width: 210px;
+  width: 13.125rem;
   text-align: center;
   margin-left: 0;
 }
@@ -212,14 +212,14 @@ footer {
   border-top-left-radius: 12px;
   width: 100%;
   margin-top: 0;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 0.313rem;
+  padding-top: 0.313rem;
 }
 
 #max {
   display: flex;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 0.313rem;
   margin-bottom: 0;
   justify-content: center;
 }
@@ -240,10 +240,10 @@ footer {
 }
 
 #me {
-  width: 105px;
-  height: 140px;
+  width: 6.563rem;
+  height: 8.75rem;
   border-radius: 6px;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 #internShip {
@@ -258,8 +258,8 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 255px;
+  max-width: 20.875rem;
+  height: 15.938rem;
 }
 
 .skillsText {
@@ -292,13 +292,13 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 560px;
+  max-width: 20.875rem;
+  height: 35rem;
 }
 
 #coursesDone h2 {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0.313rem;
+  padding-right: 0.313rem;
 }
 
 #coursesDone ul {
@@ -306,7 +306,7 @@ footer {
 } 
 
 #coursesDone li {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 } 
 
 #skills {
@@ -320,13 +320,13 @@ footer {
 #skillsH2 {
   z-index: 1;
   width: 95vw;
-  max-width: 334px;
+  max-width: 20.875rem;
   margin-top: 0.5rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
   padding-bottom: 0;
-  padding-top: 18px;
+  padding-top: 1.125rem;
   border-radius: 12px;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
 }
@@ -341,8 +341,8 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 230px;
+  max-width: 20.875rem;
+  height: 14.375rem;
 }
 
 #css {
@@ -355,8 +355,8 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 290px;
+  max-width: 20.875rem;
+  height: 18.125rem;
 }
 
 #js {
@@ -369,8 +369,8 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 160px;
+  max-width: 20.875rem;
+  height: 10rem;
 }
 
 #ts {
@@ -383,8 +383,8 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 180px;
+  max-width: 20.875rem;
+  height: 11.25rem;
 }
 
 #nodeJsArt {
@@ -396,14 +396,14 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 268px;
+  max-width: 20.875rem;
+  height: 16.75rem;
   padding-top: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 }
 
 #nodeJsArt p {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   margin-bottom: 0;
 }
 
@@ -416,8 +416,8 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 235px;
+  max-width: 20.875rem;
+  height: 14.688rem;
 }
 
 #postman {
@@ -429,8 +429,8 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 140px;
+  max-width: 20.875rem;
+  height: 8.75rem;
 }
 
 #figma {
@@ -443,13 +443,13 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
-  max-width: 334px;
-  height: 160px;
+  max-width: 20.875rem;
+  height: 10rem;
 }
 
 #contact {
   scroll-margin-top: 2vh;
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 
 #contactInfo {
@@ -459,8 +459,8 @@ footer {
   flex-direction: column;
   text-align: center;
   width: 95vw;
-  max-width: 334px;
-  height: 260px;
+  max-width: 20.875rem;
+  height: 16.25rem;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -504,17 +504,17 @@ footer {
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   margin-top: 2rem;
-  padding-top: 1px;
+  padding-top: 0.063rem;
   width: 95vw;
-  max-width: 390px;
+  max-width: 24.375rem;
   padding-bottom: 1.5rem;
-  margin-bottom: 12px;
-  height: 470px;
+  margin-bottom: 0.75rem;
+  height: 29.375rem;
 }
 
 #contactMe h2 {
   width: 100%;
-  margin-top: -1px;
+  margin-top: -0.063rem;
 }
 
 #contactMe2 {
@@ -526,7 +526,7 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 90%;
-  height: 400px;
+  height: 25rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -538,29 +538,29 @@ footer {
 
 #contactForm input {
   width: 100%;
-  height: 35px;
-  margin: 0.5em 0;
+  height: 2.188rem;
+  margin: 0.5rem 0;
   background-color: rgba(255,255,255, 0.95)
 }
 
 #contactForm textarea {
   width: 100%;
-  height: 150px;
-  margin: 0.5em 0;
+  height: 9.375rem;
+  margin: 0.5rem 0;
   background-color: rgba(255,255,255, 0.95)
 }
 
 #contactForm button {
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
 }
 
 #contactForm button {
   background-color: #16a31bad;
   color: white;
-  padding: 10px;
+  padding: 0.625rem;
   border: none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #contactForm button:hover {
@@ -584,7 +584,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
   color: black;
 }
@@ -592,7 +592,7 @@ footer {
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -641,15 +641,15 @@ footer {
 }
 
 .navBtn-hover {
-  width: 140px;
-  font-size: 22px;
+  width: 8.75rem;
+  font-size: 1.375rem;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
   margin: 0;
-  height: 35px;
+  height: 2.188rem;
   text-align:center;
-  line-height: 35px;
+  line-height: 2.188rem;
   border: none;
   background-size: 300% 100%;
   border-radius: 50px;
@@ -681,12 +681,12 @@ footer {
 }
 
 .sendBtn-hover {
-  width: 160px;
+  width: 10rem;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin: 20px;
-  height: 55px;
+  margin: 1.25rem;
+  height: 3.438rem;
   text-align:center;
   border: none;
   background-size: 300% 100%;
@@ -721,7 +721,7 @@ footer {
 @media screen and (min-width: 668px) {
 
   body p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   #myHeader {
@@ -730,12 +730,12 @@ footer {
 
   #headerContent{
     z-index: 1;
-    margin-top: 70px;
+    margin-top: 4.375rem;
     border-radius: 12px;
   }
 
   #headerContent p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   #navMenu {
@@ -759,7 +759,7 @@ footer {
     display: block;
     position: fixed;
     top: 0;
-    height: 100px;
+    height: 6.25rem;
     left: 0;
     right: 0;
   }
@@ -772,12 +772,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 930px;
-    height: 80px;
+    max-width: 58.125rem;
+    height: 5rem;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 0.625rem;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     background-color: #081317;
@@ -789,20 +789,20 @@ footer {
   #startBigBtn, #internShipBigBtn, #skillsBigBtn, #contactsBigBtn, #contactMeBigBtn {
     margin-top: auto;
     margin-bottom: auto;
-    width: 120px;
-    font-size: 16px;
+    width: 7.5rem;
+    font-size: 1rem;
   }
  
   .contentBox {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto; 
-    gap: 10px; 
+    gap: 0.625rem; 
     margin-top: 2rem;
     margin-left: auto;  
     margin-right: auto;
     align-items: center; 
-    max-width: 700px;   
+    max-width: 43.75rem;   
     margin-bottom: 2rem;
   }
 
@@ -836,10 +836,10 @@ footer {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto; 
-    gap: 10px;
+    gap: 0.625rem;
     margin-left: auto;  
     margin-right: auto;
-    max-width: 700px;
+    max-width: 43.75rem;
     height: max-content;
     margin: 0 auto;
   }
@@ -858,8 +858,8 @@ footer {
   }
 
   #skillsH2 {
-    padding-top: 12px;
-    font-size: 24px;
+    padding-top: 0.75rem;
+    font-size: 1.5rem;
   }
   
   #html {
@@ -937,7 +937,7 @@ footer {
 
   #skillsH2 {
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     margin-top: 0;
     text-align: center;
     grid-column: span 2;
@@ -959,11 +959,11 @@ footer {
   #contactInfo {
     margin-top: 4rem;
     margin-bottom: 3rem;
-    max-width: 400px;
+    max-width: 25rem;
   }
 
   #contactMe {
-    max-width: 600px;
+    max-width: 37.5rem;
   }
 
 }
