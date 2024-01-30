@@ -246,6 +246,7 @@
 						placeholder="Type your full name"
 						required
 					/>
+					<div id="nameError" class="error-message"></div>
 					<label for="email">Email :</label>
 					<input
 						type="email"
@@ -254,6 +255,7 @@
 						placeholder="Type your email"
 						required
 					/>
+					<div id="emailError" class="error-message"></div>
 					<label for="message">Message :</label>
 					<textarea
 						id="message"
@@ -262,6 +264,7 @@
 						required
 						placeholder="Type your message"
 					></textarea>
+					<div id="messageError" class="error-message"></div>
 					<button class="sendBtn-hover bn22" id="sendButton" type="button">
 						Send Email
 					</button>
@@ -277,7 +280,7 @@
 		</div>
 		<div id="myPopUp" class="popUp">
 			<div class="popUp-content">
-				<span class="close" onclick="closePopUp()">&times;</span>
+				<span id="closePopUpBtn" class="close" onclick="closePopUp()">&times;</span>
 				<p id="popUpText"></p>
 			</div>
 		</div>
