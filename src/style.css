@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  
+  height: 100vh;
 }
 
 body {
@@ -185,10 +185,10 @@ footer {
   text-align: center;
   width: 95vw;
   max-width: 20.875rem;
-  height: 16.563rem;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 15%;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   overflow: hidden;
@@ -196,12 +196,14 @@ footer {
 
 #whoAmI h1 {
   width: 100%;
+  height: 100%;
   margin-top: 0;
   text-align: center;
 }
 
 #whoAmI p {
   width: 13.125rem;
+  height: 100%;
   text-align: center;
   margin-left: 0;
 }
@@ -211,6 +213,7 @@ footer {
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
   width: 100%;
+  height: 100%;
   margin-top: 0;
   padding-bottom: 0.313rem;
   padding-top: 0.313rem;
@@ -229,6 +232,7 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 90%;
+  height: 100%;
   margin: 0;  
   padding: 0; 
 }
@@ -251,15 +255,15 @@ footer {
   position: relative;
   z-index: 1;
   display: flex;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 8%;
+  margin-bottom: 8%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 15.938rem;
+  height: 100%;
 }
 
 .skillsText {
@@ -286,17 +290,18 @@ footer {
   position: relative;
   z-index: 1;
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 8%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 35rem;
+  height: 100%;
 }
 
 #coursesDone h2 {
+  height: 100%;
   padding-left: 0.313rem;
   padding-right: 0.313rem;
 }
@@ -314,19 +319,20 @@ footer {
   flex-wrap: wrap;
   text-align: center;
   width: 100%;
-  height: 120rem;
+  height: 100%; /* kan vara problemet eller höjden på enskillda divar */
 }
 
 #skillsH2 {
   z-index: 1;
   width: 95vw;
+  height: 100%;
   max-width: 20.875rem;
-  margin-top: 0.5rem;
+  margin-top: 4%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1rem;
-  padding-bottom: 0;
-  padding-top: 1.125rem;
+  margin-bottom: 8%;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
   border-radius: 12px;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
 }
@@ -337,67 +343,67 @@ footer {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8%;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 14.375rem;
+  height: 100%;
 }
 
 #css {
   z-index: 1;
   display: flex;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8%;
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 18.125rem;
+  height: 100%;
 }
 
 #js {
   z-index: 1;
   display: flex;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 8%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 10rem;
+  height: 100%;
 }
 
 #ts {
   z-index: 1;
   display: flex;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 11.25rem;
+  height: 100%;
 }
 
 #nodeJsArt {
   z-index: 1;
   display: flex;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 16.75rem;
+  height: 100%;
   padding-top: 5px;
   padding-bottom: 1.875rem;
 }
@@ -405,32 +411,33 @@ footer {
 #nodeJsArt p {
   margin-top: 0.625rem;
   margin-bottom: 0;
+  height: 100%;
 }
 
 #npm {
   z-index: 1;
   display: flex;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 14.688rem;
+  height: 100%;
 }
 
 #postman {
   z-index: 1;
   display: flex;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 8.75rem;
+  height: 100%;
 }
 
 #figma {
@@ -444,7 +451,7 @@ footer {
   border-radius: 12px;
   width: 95vw;
   max-width: 20.875rem;
-  height: 10rem;
+  height: 100%;
 }
 
 #contact {
@@ -461,7 +468,7 @@ footer {
   width: 95vw;
   max-width: 20.875rem;
   height: 16.25rem;
-  margin-top: 2rem;
+  margin-top: 12%;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
@@ -471,20 +478,24 @@ footer {
 
 #cid2 p {
   text-align: start;
-  margin-left: 1rem; 
+  margin-left: 5%;
+   
 }
 
 #cid2 h2 {
  text-align: center;
  width: 100%;
+ height: 35%;
 }
 
 #cid3 {
   display: flex;
   justify-content: space-evenly;
+  height: 100%;
 }
 
 #cid3 a {
+  margin-top: 7%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -503,21 +514,20 @@ footer {
   margin-right: auto;
   background-image: linear-gradient(to bottom, #081317, #11212b, #182c3e);
   border-radius: 12px;
-  margin-top: 2rem;
-  padding-top: 0.063rem;
+  margin-top: 12%;
+  margin-bottom: 12%;
   width: 95vw;
+  height: 100%;
   max-width: 24.375rem;
   padding-bottom: 1.5rem;
-  margin-bottom: 0.75rem;
-  height: 29.375rem;
 }
 
 #contactMe h2 {
   width: 100%;
-  margin-top: -0.063rem;
+  height: 100%;
 }
 
-#contactMe2 {
+#contactMeHeading {
   text-align: center;
 }
 
@@ -526,6 +536,7 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 90%;
+  height: 100%;
   height: 25rem;
   margin-left: auto;
   margin-right: auto;
