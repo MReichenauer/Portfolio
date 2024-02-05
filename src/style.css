@@ -749,6 +749,7 @@ footer {
 
   body p {
     font-size: 1.125rem;
+    line-height: 1.5;
   }
 
   #myHeader {
@@ -1012,4 +1013,66 @@ footer {
 
   
 
+}
+
+@media screen and (min-width: 1150px) {
+  
+  .contentBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto; 
+    gap: 1rem; 
+    margin-top: 2rem;
+    margin-left: auto;  
+    margin-right: auto;
+    align-items: center; 
+    justify-content: center;
+    max-width: 820px;   
+    margin-bottom: 3rem;
+  }
+
+  #whoAmI {
+    max-width: 500px;
+    justify-content: center;
+    
+  }
+
+  #aboutMe p {
+    width: 260px;
+  }
+
+  #internShip {
+    max-width: 500px;
+    justify-content: center;
+    
+  }
+
+  #coursesDone {
+    max-width: 500px;
+    justify-content: center;
+  }
+
+  #coursesDone h2 {
+    height: 27%;
+  }
+  
+  #skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto; 
+    gap: 1rem; 
+    margin-top: 2rem;
+    margin-left: auto;  
+    margin-right: auto;
+    align-items: center; 
+    justify-content: center;
+    max-width: 820px;   
+    margin-bottom: 3rem;
+  }
+
+  #skills * {
+    max-width: 500px;
+  }
+
+ 
 }
