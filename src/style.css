@@ -757,13 +757,13 @@ footer {
 
 @media screen and (max-width: 349px) {
   #headerContent p {
-    font-size: 0.68rem;
+    font-size: 0.65rem;
   }
 }
 
 @media screen and (min-width: 350px) {
   #headerContent p {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 }
 
