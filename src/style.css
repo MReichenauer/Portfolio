@@ -838,8 +838,26 @@ footer {
   margin: 0;
 }
 
-.slide:nth-child(4) {
+/* .slide:nth-child(4) {
   background-color: orange;
+} */
+
+#webstoreslide1 {
+  background-image: url(../public/img/start.png);
+  background-size: 100% 29%;
+  background-repeat: no-repeat;
+}
+
+#webstoreslide2 {
+  background-image: url(../public/img/duringGame.png);
+  background-size: 100% 29%;
+  background-repeat: no-repeat;
+}
+
+#webstoreslide3 {
+  background-image: url(../public/img/whenGameIsDone.png);
+  background-size: 100% 29%;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 349px) {
