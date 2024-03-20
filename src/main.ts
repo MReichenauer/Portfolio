@@ -196,3 +196,29 @@ contactMeBigBtn?.addEventListener('click', () => {
   window.location.href = '#contactMe';
 });
 
+// Elements for carousel🎡
+const slidesContainers: NodeListOf<HTMLElement> = document.querySelectorAll('.slides-container');
+const prevButtons: NodeListOf<HTMLElement> = document.querySelectorAll('.slide-arrow-prev');
+const nextButtons: NodeListOf<HTMLElement> = document.querySelectorAll('.slide-arrow-next');
+
+slidesContainers.forEach((slidesContainer, index) => {
+  const slide: HTMLElement | null = slidesContainer.querySelector('.slide');
+  const prevButton: HTMLElement | null = prevButtons[index];
+  const nextButton: HTMLElement | null = nextButtons[index];
+
+  if (slide && prevButton && nextButton) {
+    nextButton.addEventListener('click', () => {
+      const slideWidth: number = slide.clientWidth;
+      if (slidesContainer.scrollLeft != null) {
+        slidesContainer.scrollLeft += slideWidth;
+      }
+    });
+
+    prevButton.addEventListener('click', () => {
+      const slideWidth: number = slide.clientWidth;
+      if (slidesContainer.scrollLeft != null) {
+        slidesContainer.scrollLeft -= slideWidth;
+      }
+    });
+  }
+});
