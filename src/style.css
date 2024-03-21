@@ -791,7 +791,8 @@ footer {
   bottom: 0;
   margin: auto;
   height: 4rem;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: #fff;
   border: none;
   width: 2rem;
   font-size: 3rem;
@@ -842,21 +843,57 @@ footer {
   background-color: orange;
 } */
 
-#webstoreslide1 {
+#alienGame1 {
   background-image: url(../public/img/start.png);
-  background-size: 100% 29%;
+  background-size: 100% 25%;
   background-repeat: no-repeat;
 }
 
-#webstoreslide2 {
+#alienGame2 {
   background-image: url(../public/img/duringGame.png);
-  background-size: 100% 29%;
+  background-size: 100% 25%;
   background-repeat: no-repeat;
 }
 
-#webstoreslide3 {
+#alienGame3 {
   background-image: url(../public/img/whenGameIsDone.png);
-  background-size: 100% 29%;
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+}
+
+#webbStore1 {
+  background-image: url(../public/img/candyStore/start.png);
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+}
+
+#webbStore2 {
+  background-image: url(../public/img/candyStore/browse.png);
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+}
+
+#webbStore3 {
+  background-image: url(../public/img/candyStore/checkout.png);
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+}
+
+#quizGame1 {
+  background-image: url(../public/img/quizGame/startGame.png);
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+}
+
+#quizGame2 {
+  background-image: url(../public/img/quizGame/duringGameClickRight.png);
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+}
+
+#quizGame3 {
+  background-image: url(../public/img/quizGame/afterGame.png);
+  background-size: 100% 25%;
   background-repeat: no-repeat;
 }
 
