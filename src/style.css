@@ -899,8 +899,8 @@ footer {
 
 .slider-indicators {
   display: flex;
-  justify-content: center; /* Center the indicators horizontally */
-  margin-top: 20px; /* Add some top margin for spacing */
+  justify-content: center; 
+  margin-top: 20px; 
 }
 
 .slider-indicator {
