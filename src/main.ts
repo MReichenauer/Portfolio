@@ -197,27 +197,63 @@ contactMeBigBtn?.addEventListener('click', () => {
 });
 
 // Elements for carousel🎡
-const slidesContainers: NodeListOf<HTMLElement> = document.querySelectorAll('.slides-container');
+const slidesContainers: NodeListOf<HTMLElement> = document.querySelectorAll('.slider-wrapper');
 const prevButtons: NodeListOf<HTMLElement> = document.querySelectorAll('.slide-arrow-prev');
 const nextButtons: NodeListOf<HTMLElement> = document.querySelectorAll('.slide-arrow-next');
 
 slidesContainers.forEach((slidesContainer, index) => {
-  const slide: HTMLElement | null = slidesContainer.querySelector('.slide');
+  const slides: NodeListOf<HTMLElement> = slidesContainer.querySelectorAll('.slide');
+  const indicatorsContainer: HTMLElement | null = slidesContainer.nextElementSibling as HTMLElement;
   const prevButton: HTMLElement | null = prevButtons[index];
   const nextButton: HTMLElement | null = nextButtons[index];
+  const slideCount: number = slides.length;
+  let currentSlideIndex: number = 0;
 
-  if (slide && prevButton && nextButton) {
+  if (!indicatorsContainer) return; // Ensure indicators container exists
+
+  // Create indicators
+  const indicators: HTMLElement[] = [];
+  for (let i = 0; i < slideCount; i++) {
+    const indicator = document.createElement('div');
+    indicator.classList.add('slider-indicator');
+    indicators.push(indicator);
+    indicatorsContainer.appendChild(indicator);
+    // Click event to navigate to the corresponding slide
+    indicator.addEventListener('click', () => {
+      currentSlideIndex = i;
+      updateSlider();
+    });
+  }
+
+  updateSlider(); // Update initially
+
+  // Click event to navigation buttons
+  if (prevButton && nextButton) {
     nextButton.addEventListener('click', () => {
-      const slideWidth: number = slide.clientWidth;
-      if (slidesContainer.scrollLeft != null) {
-        slidesContainer.scrollLeft += slideWidth;
-      }
+      currentSlideIndex = (currentSlideIndex + 1) % slideCount;
+      updateSlider();
     });
 
     prevButton.addEventListener('click', () => {
-      const slideWidth: number = slide.clientWidth;
-      if (slidesContainer.scrollLeft != null) {
-        slidesContainer.scrollLeft -= slideWidth;
+      currentSlideIndex = (currentSlideIndex - 1 + slideCount) % slideCount;
+      updateSlider();
+    });
+  }
+
+  // Update slider
+  function updateSlider() {
+    // Hide all slides
+    slides.forEach((slide) => {
+      slide.style.display = 'none';
+    });
+    // Show current slide
+    slides[currentSlideIndex].style.display = 'block';
+    // Update indicators
+    indicators.forEach((indicator, i) => {
+      if (i === currentSlideIndex) {
+        indicator.classList.add('active');
+      } else {
+        indicator.classList.remove('active');
       }
     });
   }

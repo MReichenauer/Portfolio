@@ -897,6 +897,25 @@ footer {
   background-repeat: no-repeat;
 }
 
+.slider-indicators {
+  display: flex;
+  justify-content: center; /* Center the indicators horizontally */
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.slider-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slider-indicator.active {
+  background-color: #333;
+}
+
 @media screen and (max-width: 349px) {
   #headerContent p {
     font-size: 0.65rem;
