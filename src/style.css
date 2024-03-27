@@ -869,7 +869,7 @@ footer {
 
 .slide-image {
   max-width: 100%;
-  height: 23.5%;
+  height: 22%;
 }
 
 .slide-description {
@@ -914,7 +914,8 @@ footer {
 .slider-indicators {
   display: flex;
   justify-content: center; 
-  margin-top: 20px; 
+  margin-top: -0.8rem; 
+  margin-bottom: 1.2rem;
 }
 
 .slider-indicator {
