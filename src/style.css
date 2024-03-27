@@ -827,23 +827,23 @@ footer {
 }
 
 .slide:nth-child(1) {
-  background-color: blue;
+  background-image: linear-gradient(to bottom, #11212b, #182c3e);
 }
 
 .slide:nth-child(2) {
-  background-color: red;
+  background-image: linear-gradient(to bottom, #11212b, #182c3e);
 }
 
 .slide:nth-child(3) {
-  background-color: purple;
-  margin: 0;
+  background-image: linear-gradient(to bottom, #11212b, #182c3e);
+  
 }
 
 /* .slide:nth-child(4) {
   background-color: orange;
 } */
 
-#alienGame1 {
+/* #alienGame1 {
   background-image: url(../public/img/start.png);
   background-size: 100% 25%;
   background-repeat: no-repeat;
@@ -859,15 +859,29 @@ footer {
   background-image: url(../public/img/whenGameIsDone.png);
   background-size: 100% 25%;
   background-repeat: no-repeat;
-}
+} */
 
-#webbStore1 {
+/* #webbStore1 {
   background-image: url(../public/img/candyStore/start.png);
   background-size: 100% 25%;
   background-repeat: no-repeat;
+} */
+
+.slide-image {
+  max-width: 100%;
+  height: 23.5%;
 }
 
-#webbStore2 {
+.slide-description {
+  color: aliceblue;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.25rem;
+}
+
+/* #webbStore2 {
   background-image: url(../public/img/candyStore/browse.png);
   background-size: 100% 25%;
   background-repeat: no-repeat;
@@ -877,9 +891,9 @@ footer {
   background-image: url(../public/img/candyStore/checkout.png);
   background-size: 100% 25%;
   background-repeat: no-repeat;
-}
+} */
 
-#quizGame1 {
+/* #quizGame1 {
   background-image: url(../public/img/quizGame/startGame.png);
   background-size: 100% 25%;
   background-repeat: no-repeat;
@@ -895,7 +909,7 @@ footer {
   background-image: url(../public/img/quizGame/afterGame.png);
   background-size: 100% 25%;
   background-repeat: no-repeat;
-}
+} */
 
 .slider-indicators {
   display: flex;
