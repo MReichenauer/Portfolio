@@ -145,6 +145,7 @@ function scrollToTop() {
 // Event handler for hamburger nav
 const startBtn = document.querySelector('#startBtn')
 const internShipBtn = document.getElementById('internShipBtn');
+const projectsBtn = document.getElementById('projectsBtn');
 const skillsBtn = document.getElementById('skillsBtn');
 const contactsBtn = document.getElementById('contactsBtn');
 const contactMeBtn = document.getElementById('contactMeBtn');
@@ -155,6 +156,10 @@ startBtn?.addEventListener('click', () => {
 
 internShipBtn?.addEventListener('click', () => {
   window.location.href = '#internShip';
+});
+
+projectsBtn?.addEventListener('click', () => {
+  window.location.href = '#projectsSection';
 });
 
 skillsBtn?.addEventListener('click', () => {
