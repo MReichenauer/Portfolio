@@ -177,6 +177,7 @@ contactMeBtn?.addEventListener('click', () => {
 // Event handler for big nav
 const startBigBtn = document.querySelector('#startBigBtn')
 const internShipBigBtn = document.getElementById('internShipBigBtn');
+const projectsBigBtn = document.getElementById('projectsBigBtn');
 const skillsBigBtn = document.getElementById('skillsBigBtn');
 const contactsBigBtn = document.getElementById('contactsBigBtn');
 const contactMeBigBtn = document.getElementById('contactMeBigBtn');
@@ -187,6 +188,10 @@ startBigBtn?.addEventListener('click', () => {
 
 internShipBigBtn?.addEventListener('click', () => {
   window.location.href = '#internShip';
+});
+
+projectsBigBtn?.addEventListener('click', () => {
+  window.location.href = '#projectsSection';
 });
 
 skillsBigBtn?.addEventListener('click', () => {

@@ -775,7 +775,7 @@ footer {
     margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 8%;
+    margin-bottom: 2.5rem;
     padding-bottom: 0.8rem;
     padding-top: 0.8rem;
     border-radius: 12px;
@@ -1005,7 +1005,7 @@ footer {
     border-top-style: none;
   }
 
-  #startBigBtn, #internShipBigBtn, #skillsBigBtn, #contactsBigBtn, #contactMeBigBtn {
+  #startBigBtn, #internShipBigBtn,#projectsBigBtn, #skillsBigBtn, #contactsBigBtn, #contactMeBigBtn {
     margin-top: auto;
     margin-bottom: auto;
     width: 7.5rem;
@@ -1050,6 +1050,9 @@ footer {
     grid-row: span 1;
   }
 
+  #projectsSection {
+    scroll-margin-top: 14vh;
+  }
   #coursesDone {
     width: 100%;
     order: 2; 
@@ -1258,7 +1261,7 @@ footer {
     font-size: 1.1rem;
   }
   
-  #startBigBtn, #internShipBigBtn, #skillsBigBtn, #contactsBigBtn, #contactMeBigBtn {
+  #startBigBtn, #internShipBigBtn, #projectsBigBtn, #skillsBigBtn, #contactsBigBtn, #contactMeBigBtn {
     margin-top: auto;
     margin-bottom: auto;
     width: 8rem;
@@ -1290,6 +1293,10 @@ footer {
 
   #aboutMe p {
     width: 260px;
+  }
+
+  #projectsSection {
+    scroll-margin-top: 12vh;
   }
 
   #internShip {
