@@ -898,36 +898,6 @@ footer {
   margin-top: 0.25rem;
 }
 
-/* #webbStore2 {
-  background-image: url(../public/img/candyStore/browse.png);
-  background-size: 100% 25%;
-  background-repeat: no-repeat;
-}
-
-#webbStore3 {
-  background-image: url(../public/img/candyStore/checkout.png);
-  background-size: 100% 25%;
-  background-repeat: no-repeat;
-} */
-
-/* #quizGame1 {
-  background-image: url(../public/img/quizGame/startGame.png);
-  background-size: 100% 25%;
-  background-repeat: no-repeat;
-}
-
-#quizGame2 {
-  background-image: url(../public/img/quizGame/duringGameClickRight.png);
-  background-size: 100% 25%;
-  background-repeat: no-repeat;
-}
-
-#quizGame3 {
-  background-image: url(../public/img/quizGame/afterGame.png);
-  background-size: 100% 25%;
-  background-repeat: no-repeat;
-} */
-
 .slider-indicators {
   display: flex;
   justify-content: center; 
